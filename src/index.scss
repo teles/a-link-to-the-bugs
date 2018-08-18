@@ -1,3 +1,16 @@
-.hello {
-  color: red;
+body {
+  display: flex;
+  flex-direction: column;
+  background: #1a1a1a;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+h1 {
+  color: #efefef;
+  font-family: sans-serif;
+}
+canvas {
+  border: 10px solid #2a2a2a;
 }
